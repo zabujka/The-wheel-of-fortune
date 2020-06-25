@@ -1,0 +1,31 @@
+.circle {
+    width: 40vh;
+    height: 40vh;
+    background-color: #fce4ec;
+    border-radius: 50%;
+    border-bottom: 120px solid #880e4f;
+    border-left: 120px solid #EECDEB;
+    border-right: 120px solid #e91e63;
+    border-top: 120px solid #f48fb1;
+    margin: 0 auto;
+    transition: transform 8s ease, border 6s ease-in-out, background-color 7s ease;
+}
+
+.active{
+    transform: rotate(6660deg);
+    border-bottom-color: #b3e5fc;
+    border-left-color: #4fc3f7;
+    border-right-color: #03a9f4;
+    border-top-color: #01579b;
+    background-color: #00e5ff;
+} 
+
+button {
+    background-color: #ff4081;
+    color: white;
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 20px auto;
+    border: none;
+}
